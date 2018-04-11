@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+
+
+    
+</head>
+<body>
+    <div class="container" id="main-container">
+        <div class="row">
+            <div class="col">
+
+                <!-- Page Title Section -->
+                <div class="container box" id="page-title">
+                    <div class="row">
+                        <div class="col">
+                            <h1>WEB DESIGNER TRIVIA</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content Section -->
+                <div class="container box" id="main-section">
+                    <div class="row">
+                        
+                        <!-- Instructions Section-->
+                        <div class="col-lg-10 no-pad" id="instructions">
+                            <p>Rules of the Game.  Press the timer to the right to start the game.  You will have 30 seconds to answer each question.  Select the box of the answer believe is correct. There is a total of 12 questions in this game.</p>
+                        </div>
+
+                        <!-- Countdown Timer -->
+                        <div class="col-lg-2 no-pad" id="countdown">
+                            <h1>30</h1>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        
+                        <!-- Question Number Currently Being Asked -->
+                        <div class="col-lg-2 no-pad" id="question-number">
+                            <h2>Q <span class="red-variable">02</span></h2>
+                        </div>
+
+                        <!-- Current Question Being Asked-->
+                        <div class="col-lg-10 no-pad" id="question">
+                            <p>In his own words, who “started the whole responsive web design thing?”</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Number of Questions Answered Right-->
+                        <div class="col-lg-2 no-pad" id="correct-answers">
+                            <h3>Correct</h3>
+                            <h2><span class="red-variable">00</span></h2>
+                        </div>
+
+                        <!-- Multiple Choice A & B -->
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-a">
+                            <p>Ethan Marcotte</p>
+                        </div>
+
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-b">
+                            <p>Elon Musk</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        
+                        <!-- Number of Questions Answered Wrong-->
+                        <div class="col-lg-2 no-pad" id="incorrect-answers">
+                            <h3>Incorrect</h3>
+                            <h2><span class="red-variable">00</span></h2>
+                        </div>
+
+                        <!-- Multiple Choice C & D -->
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-c">
+                            <p>Celine Dion</p>
+                        </div>
+
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-d">
+                            <p>Bill Gates</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Bottom Section -->
+                <div class="container box" id="thank-you">
+                    <div class="row">
+                        <div class="col">
+                            <h1>THANKS FOR PLAYING!</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Javascript File -->
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>

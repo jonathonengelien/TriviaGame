@@ -1,0 +1,216 @@
+html {
+    background: url(../images/background.jpg) repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: none;
+}
+
+
+
+/******** Trivia Content Section **********/
+#main-container {
+    background-color: #D6BBB1;
+    border-radius: 15px;
+    width: 80%;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 16px 10px 7px rgba(48, 43, 32, 0.80);
+}
+
+.box {
+    margin: 0;
+    /* padding: 20px; */
+
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: #0F4844;
+
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #0F4844;
+
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+}
+
+#page-title {
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #0F4844; 
+}
+
+#thank-you {
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #0F4844;  
+}
+
+h1 {
+    padding: 20px;
+    color: #A94834;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+h2 {
+    color: #A94834;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+
+h2 span {
+    color: #A94834;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 32px;
+}
+
+h3 {
+    color: #0F4844;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+p {
+    color: #0F4844;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+#main-section {
+    margin: 40px 0;
+}
+
+#main-section .row {
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #0F4844;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+
+
+
+/******** Instructions Section **********/
+
+#instructions {
+    padding: 0;
+}
+
+#instructions p {
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#countdown {
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: #0F4844;
+}
+
+#countdown h1 {
+    padding: 50px 0;
+}
+
+
+/******** Question Section **********/
+
+#question-number {
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+}
+
+#question-number h2 {
+    padding: 50px 0;
+}
+
+#question p {
+    padding: 50px 50px;
+}
+
+
+
+/******** Answers Section **********/
+
+#correct-answers {
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+    padding-bottom: 40px;
+}
+
+#correct-answers h3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#correct-answers .red-variable {
+    text-align: center;
+}
+
+#incorrect-answers {
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+    padding-bottom: 40px;
+}
+
+#incorrect-answers h3 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#incorrect-answers .red-variable {
+    text-align: center;
+    
+}
+
+.multiple-choice p {
+    padding: 60px 0; 
+}
+
+#choice-a {
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+}
+
+#choice-c {
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-right-color: #0F4844;
+}
+
+
+
+
+
+
