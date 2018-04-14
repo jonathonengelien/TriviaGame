@@ -37,12 +37,12 @@
                         
                         <!-- Instructions Section-->
                         <div class="col-lg-10 no-pad" id="instructions">
-                            <p>Rules of the Game.  Press the timer to the right to start the game.  You will have 30 seconds to answer each question.  Select the box of the answer believe is correct. There is a total of 12 questions in this game.</p>
+                            <p>Rules of the Game.  Press the timer to the right to start the game.  You will have 30 seconds to answer each question.  Select the box of the answer believe is correct. There is a total of 13 questions in this game.</p>
                         </div>
 
                         <!-- Countdown Timer -->
                         <div class="col-lg-2 no-pad" id="countdown">
-                            <h1>30</h1>
+                            <h1 id="countdown-timer">00</h1>
 
                         </div>
                     </div>
@@ -51,12 +51,12 @@
                         
                         <!-- Question Number Currently Being Asked -->
                         <div class="col-lg-2 no-pad" id="question-number">
-                            <h2>Q <span class="red-variable">02</span></h2>
+                            <h2>Q<span class="red-variable" id="current-question">00</span></h2>
                         </div>
 
                         <!-- Current Question Being Asked-->
-                        <div class="col-lg-10 no-pad" id="question">
-                            <p>In his own words, who “started the whole responsive web design thing?”</p>
+                        <div class="col-lg-10 no-pad" >
+                            <p id="question">Question</p>
                         </div>
                     </div>
 
@@ -69,12 +69,12 @@
                         </div>
 
                         <!-- Multiple Choice A & B -->
-                        <div class="col-lg-5 no-pad multiple-choice" id="choice-a">
-                            <p>Ethan Marcotte</p>
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-border">
+                            <p class="choice" id="choice-a">Choice A</p>
                         </div>
 
-                        <div class="col-lg-5 no-pad multiple-choice" id="choice-b">
-                            <p>Elon Musk</p>
+                        <div class="col-lg-5 no-pad multiple-choice" >
+                            <p class="choice" id="choice-b">Choice B</p>
                         </div>
                     </div>
 
@@ -87,12 +87,12 @@
                         </div>
 
                         <!-- Multiple Choice C & D -->
-                        <div class="col-lg-5 no-pad multiple-choice" id="choice-c">
-                            <p>Celine Dion</p>
+                        <div class="col-lg-5 no-pad multiple-choice" id="choice-border">
+                            <p class="choice" id="choice-c">Choice C</p>
                         </div>
 
-                        <div class="col-lg-5 no-pad multiple-choice" id="choice-d">
-                            <p>Bill Gates</p>
+                        <div class="col-lg-5 no-pad multiple-choice" >
+                            <p class="choice" id="choice-d">Choice D</p>
                         </div>
 
                     </div>

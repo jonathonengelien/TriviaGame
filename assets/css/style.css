@@ -152,7 +152,7 @@ p {
     padding: 50px 0;
 }
 
-#question p {
+#question {
     padding: 50px 50px;
 }
 
@@ -197,17 +197,12 @@ p {
     padding: 60px 0; 
 }
 
-#choice-a {
+#choice-border {
     border-right-style: solid;
     border-right-width: 6px;
     border-right-color: #0F4844;
 }
 
-#choice-c {
-    border-right-style: solid;
-    border-right-width: 6px;
-    border-right-color: #0F4844;
-}
 
 
 
